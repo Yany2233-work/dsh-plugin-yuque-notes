@@ -38,7 +38,7 @@ agent.followup(提炼指令)      ← 让 agent 读自己的会话历史
 | 来源 | 命令 |
 |---|---|
 | npm 源（发布后） | `pnpm add dsh-plugin-yuque-notes` |
-| Git 仓库 | `pnpm add github:Yany2233/dsh-plugin-yuque-notes`（或 `git+https://github.com/Yany2233/dsh-plugin-yuque-notes.git`） |
+| Git 仓库 | `pnpm add github:Yany2233-work/dsh-plugin-yuque-notes`（或 `git+https://github.com/Yany2233-work/dsh-plugin-yuque-notes.git`） |
 | 压缩包 | `pnpm add ./dsh-plugin-yuque-notes-0.2.0.tgz`（或 GitHub Release 上挂的 `.tgz` 地址） |
 
 安装进目标 profile（以 `desktop` 为例，把 `<profile>` 换成你的 profile 名）：

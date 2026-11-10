@@ -16,11 +16,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yany2233/dsh-plugin-yuque-notes.git"
+    "url": "git+https://github.com/Yany2233-work/dsh-plugin-yuque-notes.git"
   },
-  "homepage": "https://github.com/Yany2233/dsh-plugin-yuque-notes#readme",
+  "homepage": "https://github.com/Yany2233-work/dsh-plugin-yuque-notes#readme",
   "bugs": {
-    "url": "https://github.com/Yany2233/dsh-plugin-yuque-notes/issues"
+    "url": "https://github.com/Yany2233-work/dsh-plugin-yuque-notes/issues"
   },
   "engines": {
     "node": ">=22.5",
