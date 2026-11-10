@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Yuque Notes",
+    "description": "Distill the current conversation into a Yuque note and save it to your signed-in Yuque knowledge base, optionally into a folder (catalog) picked at save time via /yuque-save @folder or --catalog. Commands: /yuque-save, /yuque-account, /yuque-book, /yuque-dir, plus the yuque_save tool."
+  }
+}

@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# packaging artifacts
+*.tgz
+*.tar.gz
+dist/
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

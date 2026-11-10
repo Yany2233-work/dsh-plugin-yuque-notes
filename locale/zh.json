@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "语雀笔记",
+    "description": "把当前对话提炼成一篇笔记，并直接保存到你已登录的语雀账号（知识库，保存时可指定目录）。提供 /yuque-save 一键沉淀（支持 @目录 或 --catalog 指定保存位置）、/yuque-account 查看登录账号、/yuque-book 与 /yuque-dir 查看知识库和目录，以及 yuque_save 工具上传。"
+  }
+}

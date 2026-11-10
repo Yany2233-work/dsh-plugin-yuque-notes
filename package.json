@@ -1,0 +1,49 @@
+{
+  "name": "dsh-plugin-yuque-notes",
+  "version": "0.2.0",
+  "type": "module",
+  "main": "./index.js",
+  "description": "Distill the current DSH conversation into a Yuque note and save it to the signed-in Yuque account.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "yuque",
+    "语雀",
+    "notes"
+  ],
+  "author": "Yany2233",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yany2233/dsh-plugin-yuque-notes.git"
+  },
+  "homepage": "https://github.com/Yany2233/dsh-plugin-yuque-notes#readme",
+  "bugs": {
+    "url": "https://github.com/Yany2233/dsh-plugin-yuque-notes/issues"
+  },
+  "engines": {
+    "node": ">=22.5",
+    "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

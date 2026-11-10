@@ -1,0 +1,20 @@
+# dsh-plugin-yuque-notes: one Host row. The plugin registers the
+# /yuque-save, /yuque-token and /yuque-book commands plus the yuque_save tool.
+- insert:
+    - id: yuque-notes
+      name: 'dsh-plugin-yuque-notes'
+      config:
+        # 可选：默认知识库 namespace（形如 "login/book-slug"）。
+        # 留空时自动使用 Token 对应账号下第一个知识库。
+        book: ''
+        # 可选：默认写入的知识库内目录（形如 "复盘" 或 "工作/复盘"）。
+        # 留空时写到知识库根目录。仅网页登录态（Cookie）支持，开放 API 不支持。
+        catalog: ''
+        # 可选：覆盖语雀 API 地址，一般无需修改。
+        apiBase: 'https://www.yuque.com/api/v2'
+        # 可选：新文档是否公开（false = 私密，仅自己可见）。
+        public: false
+        # 可选：自动登录用到的 Edge 可执行文件；留空时自动探测。
+        edgePath: ''
+        # 可选：自动登录等待窗口关闭的毫秒数（默认 3 分钟）。
+        loginTimeoutMs: 180000
